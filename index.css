@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	font-family: 'Centure Gothic', sans-serif;
+}
+
+.productline-pagetitle {
+	font-size: 2.75rem;
+	padding: 3rem 0 1.5rem 0;
+}
+
+.productline-pagetitle {
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.25;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: .5rem 2.5rem 1rem 2.5rem;
+	color: #182160;
+}
+
+.header-divider {
+	height: 9px;
+	background: linear-gradient(to right, #182160, #2bbcd6);
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border-style: none;
+}
+
+.content-container {
+	margin-top: 20px;
+	flex-direction: column;
+	display: flex;
+	box-sizing: border-box;
+	color: #182160;
+	justify-content: center;
+	align-items: center;
+}
+
+.td-backdrop {
+	background: #F7F7F6;
+	padding: 20px;
+}
+
+.title-container {
+	font-size: 2.25rem;
+	line-height: 3rem;
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+	color: #182160;
+
+}
+
+.wave-image {
+	text-align: center;
+	margin-top: 1.15rem;
+	box-sizing: border-box;
+	color: #182160;
+
+}
+
+.description-container {
+	flex: 0 0 50%;
+	max-width: 70%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+/* 
+.description-container .spacer {
+	min-height: 40%;
+	display: block;
+	min-width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+
+} */
+
+.description-container .description {
+	font-size: 1.5rem;
+	width: 100%;
+	padding-top: 1.7rem;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.image-bottom-container {
+	display: block;
+	flex: 0 0 50%;
+	max-width: 50%;
+	box-sizing: border-box;
+}
+
+.maincontent-container {
+	display: flex;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.maincontent {
+	max-width: 70%;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 700px;
+}
+
+.image-maincontent {
+	text-align: center;
+	flex-shrink: 1;
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.title-description {
+	flex-shrink: 1;
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.title-middle {
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+	box-sizing: border-box;
+	text-align: center;
+	color: #182160;
+	padding-bottom: 0.5rem;
+}
+
+.description-middle {
+	margin: 0;
+	font-size: 1.2rem;
+	box-sizing: border-box;
+	text-align: center;
+	color: #182160;
+}
+
+.dot-image {
+	text-align: center;
+	margin-top: 1.15rem;
+	box-sizing: border-box;
+	color: #182160;
+
+}
+
+.img-products {
+	max-width: 35%;
+	height: auto;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border-style: none;
+}
